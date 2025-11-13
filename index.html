@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Arsip Digital</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        form { max-width: 400px; margin: auto; }
+        input[type="file"] { margin: 10px 0; }
+        button { padding: 10px 20px; background: #007bff; color: white; border: none; cursor: pointer; }
+        button:hover { background: #0056b3; }
+    </style>
+</head>
+<body>
+    <h1>Upload Arsip Digital</h1>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <label for="file">Pilih file arsip:</label><br>
+        <input type="file" id="file" name="file" accept=".zip,.rar,.pdf,.doc,.docx"><br><br>
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>
